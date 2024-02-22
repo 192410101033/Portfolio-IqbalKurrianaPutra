@@ -124,7 +124,7 @@ if selected =='Projects':
         with col10:
             st.image(image2)
         with col11:
-            st.subheader("Sistem Informasi Management Pengdaan Elektronik Pemerintah")
+            st.subheader("Sistem Informasi Management Pengadaan Elektronik Pemerintah")
             st.write("""Software Requirement Spesification Sistem Informasi Management Pengdaan Elektronik Pemerintah
             """)
             st.markdown("[Readmore](https://drive.google.com/file/d/1LUFJrqW7_udCk6RtoEdUIBQIjgJohPXw/view?usp=sharing)")
