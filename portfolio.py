@@ -102,7 +102,7 @@ if selected == 'About':
             - Most Active Student
             - Pemateri Pelatihan Pembuatan Konten Digital di Desa Wisata Jatirejo, Bantul, DIY
             - Pemateri Pelatihan Pemasaran/Marketing Kalurahan Tlogoadi Sleman, DIY
-        - System Analyst(Internship) - Wesclic Indonesia
+        - System Analyst(Internship) - PT. Wesclic Indonesia Neotech
         """)
 
 if selected =='Projects':
