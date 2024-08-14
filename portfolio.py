@@ -129,13 +129,13 @@ if selected == 'About':
             padding: 10px 20px;
             font-size: 16px;
             color: white;
-            background-color: #007bff;
+            background-color: #001a3;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
         }
         .stButton:hover {
-            background-color: #001a35;
+            background-color: #007bff;
         }
         </style>
         <div class="center-button">
