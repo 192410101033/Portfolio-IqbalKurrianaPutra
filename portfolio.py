@@ -54,7 +54,7 @@ if selected == 'About':
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("I am Iqbal Kurriana Putra")
-            st.title("Freshgraduate at Jember University")
+            st.title("Business Application Solution Architect at PT ASDP Indonesia Ferry")
             st.write("Saya pengembang tekun dan antusias dengan perancangan sistem. Saya juga memiliki passion tentang latar belakang yang kuat dalam Python dan Machine Learning.")
         with col2:
             st_lottie(lottie_coder2, height=270)
@@ -103,6 +103,7 @@ if selected == 'About':
             - Pemateri Pelatihan Pembuatan Konten Digital di Desa Wisata Jatirejo, Bantul, DIY
             - Pemateri Pelatihan Pemasaran/Marketing Kalurahan Tlogoadi Sleman, DIY
         - System Analyst(Internship) - PT Wesclic Indonesia Neotech
+        - Business Application Solution Architect - PT ASDP Indonesia Ferry
         """)
 
 if selected =='Projects':
