@@ -129,7 +129,7 @@ if selected == 'About':
             padding: 10px 20px;
             font-size: 16px;
             color: #FFFFFF;
-            background-color: #3779c0;
+            background-color: #ff7800;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
