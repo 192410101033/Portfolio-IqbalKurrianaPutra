@@ -126,9 +126,59 @@ if selected =='Projects':
             st.image(image2)
         with col11:
             st.subheader("Sistem Informasi Management Pengadaan Elektronik Pemerintah")
-            st.write("""Software Requirement Spesification Sistem Informasi Management Pengdaan Elektronik Pemerintah
+            st.write("""Software Requirement Spesification Sistem Informasi Management Pengadaan Elektronik Pemerintah
             """)
             st.markdown("[Readmore](https://drive.google.com/file/d/1LUFJrqW7_udCk6RtoEdUIBQIjgJohPXw/view?usp=sharing)")
+
+    with st.container():
+        col19, col20 = st.columns((1,5))
+        with col19:
+            st.image(image2)
+        with col20:
+            st.subheader("Sistem Informasi Management Pengadaan Elektronik Pemerintah")
+            st.write("""Frequently Asked Questions Sistem Informasi Management Pengadaan Elektronik Pemerintah
+            """)
+            st.markdown("[Readmore](https://drive.google.com/file/d/1mz2CiR269us4Pwf4TCy6ZXngNfarBEnr/view?usp=drive_link)")
+
+    with st.container():
+        col21, col22 = st.columns((1,5))
+        with col21:
+            st.image(image2)
+        with col22:
+            st.subheader("Sistem Informasi Manajemen Tracer Alumni")
+            st.write("""Dokumen End User Sistem Informasi Manajemen Tracer Alumni
+            """)
+            st.markdown("[Readmore](https://drive.google.com/file/d/1DVekC1OlnTN15DFMBgCZ__kPrxuSa6L3/view?usp=drive_link)")
+
+    with st.container():
+        col23, col24 = st.columns((1,5))
+        with col23:
+            st.image(image2)
+        with col24:
+            st.subheader("Manaje Store - E-commerce Website Builder")
+            st.write("""Dokumen End User Manaje Store - E-commerce Website Builder
+            """)
+            st.markdown("[Readmore](https://drive.google.com/file/d/1qfV0M6ZlLBCnYdV-uz5iFIqOwQseNIo7/view?usp=drive_link)")
+
+    with st.container():
+        col25, col26 = st.columns((1,5))
+        with col25:
+            st.image(image2)
+        with col26:
+            st.subheader("Mobile App - FINMAP")
+            st.write("""Dokumen End User Mobile App - FINMAP
+            """)
+            st.markdown("[Readmore](https://drive.google.com/file/d/127pgBk-UDGRce6KIPo9XPZZtUoAXZzTW/view?usp=drive_link)")
+
+    with st.container():
+        col21, col22 = st.columns((1,5))
+        with col21:
+            st.image(image2)
+        with col22:
+            st.subheader("Website Manaje LPX Studio")
+            st.write("""Diagram Penambahan Fitur SRS LPX
+            """)
+            st.markdown("[Readmore](https://drive.google.com/file/d/1CVmhpdY8QeSS2MNV2ZkrG5d-Ab_XkIox/view?usp=drive_link)")
             st.markdown("**Next Project Soon*")
     st.write('---')
 
