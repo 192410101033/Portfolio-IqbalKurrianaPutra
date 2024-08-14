@@ -136,10 +136,10 @@ if selected == 'About':
             border-radius: 5px;
         }
         .stButton:hover {
-            background-color: white;
+            background-color: #0C3151;
         }
         .center-button a {
-            color: #0C3151; /* Warna font tombol yang diubah menjadi putih */
+            color: #97DFFF; /* Warna font tombol yang diubah menjadi putih */
             text-decoration: none; /* Menghilangkan garis bawah pada tautan */
         }
         </style>
