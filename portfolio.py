@@ -93,7 +93,6 @@ if selected == 'About':
             - Juara 1 PKM-PI Tingkat Fakultas Ekonomi dan Bisnis 2021
             - Poster Terbaik IT Convert 2022 Bidang Bisnis TIK
             """)
-            st.markdown("[Readmore](https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing)")
             
     with st.container():
         st.subheader("""
@@ -117,6 +116,8 @@ if selected == 'About':
         - System Analyst(Internship) - PT Wesclic Indonesia Neotech
         - Business Application Solution Architect - PT ASDP Indonesia Ferry
         """)
+    with st.container():
+        st.link_button("Achivement", "https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing")
 
 if selected =='Projects':
     with st.container():
