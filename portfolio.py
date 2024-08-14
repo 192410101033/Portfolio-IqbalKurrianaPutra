@@ -68,7 +68,7 @@ if selected == 'About':
             st.title('PT ASDP Indonesia Ferry')
             st.write("Saya pengembang tekun dan antusias dengan perancangan sistem. Saya juga memiliki passion tentang latar belakang yang kuat dalam Python dan Machine Learning.")
         with col2:
-            st_lottie(lottie_coder2, height=320)
+            st_lottie(lottie_coder2, height=120)
     
     st.write("---")
 
