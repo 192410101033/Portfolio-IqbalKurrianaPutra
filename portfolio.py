@@ -65,7 +65,8 @@ if selected == 'About':
         with col1:
             st.subheader("I am Iqbal Kurriana Putra")
             st.title("""Business Application Solution Architect -
-            PT ASDP Indonesia Ferry""")
+            PT ASDP Indonesia Ferry
+            """)
             st.write("Saya pengembang tekun dan antusias dengan perancangan sistem. Saya juga memiliki passion tentang latar belakang yang kuat dalam Python dan Machine Learning.")
         with col2:
             st_lottie(lottie_coder2, height=320)
