@@ -135,7 +135,7 @@ if selected == 'About':
             border-radius: 5px;
         }
         .stButton:hover {
-            background-color: #007bff;
+            background-color: white;
         }
         </style>
         <div class="center-button">
