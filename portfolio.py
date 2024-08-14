@@ -22,9 +22,19 @@ image3 = Image.open("Images/Sistem Pakar.png")
 image4 = Image.open("Images/instagram.png")
 image5 = Image.open("Images/Linkedin.png")
 image6 = Image.open("Images/Gmail.png")
+image7 = Image.open("Images/FAQ.png")
+image8 = Image.open("Images/COLLEGE.png")
+image9 = Image.open("Images/COMMERCE.png")
+image10 = Image.open("Images/FINMAP.png")
+image11 = Image.open("Images/MANAJE.png")
 image = image.resize((150, 100))
 image2 = image2.resize((150, 100))
 image3 = image3.resize((150, 100))
+image7 = image7.resize((150, 100))
+image8 = image8.resize((150, 100))
+image9 = image9.resize((150, 100))
+image10 = image10.resize((150, 100))
+image11 = image11.resize((150, 100))
 #image4 = image4.resize((150, 150))
 #image5 = image5.resize((150, 150))
 #image6 = image6.resize((250, 150))
@@ -133,7 +143,7 @@ if selected =='Projects':
     with st.container():
         col19, col20 = st.columns((1,5))
         with col19:
-            st.image(image2)
+            st.image(image7)
         with col20:
             st.subheader("Sistem Informasi Management Pengadaan Elektronik Pemerintah")
             st.write("""Frequently Asked Questions Sistem Informasi Management Pengadaan Elektronik Pemerintah
@@ -143,7 +153,7 @@ if selected =='Projects':
     with st.container():
         col21, col22 = st.columns((1,5))
         with col21:
-            st.image(image2)
+            st.image(image8)
         with col22:
             st.subheader("Sistem Informasi Manajemen Tracer Alumni")
             st.write("""Dokumen End User Sistem Informasi Manajemen Tracer Alumni
@@ -153,7 +163,7 @@ if selected =='Projects':
     with st.container():
         col23, col24 = st.columns((1,5))
         with col23:
-            st.image(image2)
+            st.image(image9)
         with col24:
             st.subheader("Manaje Store - E-commerce Website Builder")
             st.write("""Dokumen End User Manaje Store - E-commerce Website Builder
@@ -163,7 +173,7 @@ if selected =='Projects':
     with st.container():
         col25, col26 = st.columns((1,5))
         with col25:
-            st.image(image2)
+            st.image(image10)
         with col26:
             st.subheader("Mobile App - FINMAP")
             st.write("""Dokumen End User Mobile App - FINMAP
@@ -173,7 +183,7 @@ if selected =='Projects':
     with st.container():
         col21, col22 = st.columns((1,5))
         with col21:
-            st.image(image2)
+            st.image(image11)
         with col22:
             st.subheader("Website Manaje LPX Studio")
             st.write("""Diagram Penambahan Fitur SRS LPX
