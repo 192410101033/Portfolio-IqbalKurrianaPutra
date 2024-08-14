@@ -117,19 +117,31 @@ if selected == 'About':
         - Business Application Solution Architect - PT ASDP Indonesia Ferry
         """)
     with st.container():
-        st.button("""
-            <style>
-            .center-button {
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
-            }
-            </style>
-            <div class="center-button">
-                <a href="https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing" id="centered-button" class="stButton">Achivement</a>
-            </div>
-            """, unsafe_allow_html=True)
-        st.link_button("Achivement", "https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing")
+        st.markdown("""
+        <style>
+        .center-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .stButton {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .stButton:hover {
+            background-color: #0056b3;
+        }
+        </style>
+        <div class="center-button">
+            <a href="https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing" class="stButton">Achivement</a>
+        </div>
+        """, unsafe_allow_html=True)
 
 if selected =='Projects':
     with st.container():
