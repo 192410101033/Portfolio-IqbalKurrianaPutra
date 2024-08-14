@@ -117,7 +117,7 @@ if selected == 'About':
         - Business Application Solution Architect - PT ASDP Indonesia Ferry
         """)
     with st.container():
-        st.markdown("""
+        st.link_button("""
             <style>
             .center-button {
                 display: flex;
