@@ -130,7 +130,7 @@ if selected == 'About':
             font-size: 16px;
             color: #FFFFFF;
             background-color: transparent;
-            border: 2px solid #3779c0;
+            border: 2px solid #0C3151;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
@@ -139,7 +139,7 @@ if selected == 'About':
             background-color: white;
         }
         .center-button a {
-            color: #FFFFFF; /* Warna font tombol yang diubah menjadi putih */
+            color: #0C3151; /* Warna font tombol yang diubah menjadi putih */
             text-decoration: none; /* Menghilangkan garis bawah pada tautan */
         }
         </style>
