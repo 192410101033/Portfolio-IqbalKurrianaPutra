@@ -137,6 +137,10 @@ if selected == 'About':
         .stButton:hover {
             background-color: white;
         }
+        .center-button a {
+            color: #FFFFFF; /* Warna font tombol yang diubah menjadi putih */
+            text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+        }
         </style>
         <div class="center-button">
             <a href="https://drive.google.com/drive/folders/1rxyG6jUjgP08M78x1HmHx0xIEi0bJpzU?usp=sharing" class="stButton">Achivement</a>
